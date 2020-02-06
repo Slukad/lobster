@@ -1,0 +1,16 @@
+<div class="alert alert-success" role="alert" *ngIf="saved">
+  <h4 class="alert-heading">Awesome!</h4>
+  <p>Well, if you have not tried it, you definitely should take a look and {{finalDecision}} for a while. Hope you have enjoyed this little adventure and see you next time.</p>
+  <hr>
+  <p class="mb-0">There are a few options for you now.</p>
+  <button class="btn btn-success" (click)="restart()" style="margin-right:10px">New Adventure</button> 
+  <button class="btn btn-primary" [routerLink]="['/fetch-data']">Top 10 Adventures</button>
+</div>
+<div *ngFor="let decision of decisions; index as i;">
+  <app-branch
+          [decisions]="decisions"
+          [decision]="decision"          
+          (choiceSelected)="onChoiceSelected($event)"> 
+   </app-branch>
+</div>
+

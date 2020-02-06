@@ -1,0 +1,255 @@
+.choiceBox {
+  border: 3px solid #AAA;
+  height: 60px;
+  width: 70px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  background: #EFEFEF;
+  margin-left: -30px;
+  cursor:pointer;
+}
+
+.choiceLines {
+  border-left: 2px solid #ffc107;
+  border-top: 2px solid #ffc107;
+  border-right: 2px solid #ffc107;
+  height: 40px;
+}
+
+.verticalLine {
+  border-left: 2px solid #BBB;
+  margin-left: 0px;
+  height: 40px
+}
+
+.resolution {
+  width: 220px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.resolutionText1 {
+  margin-left: -190px;
+  margin-top: 70px;
+}
+
+.resolutionText2 {
+  margin-left: -20px;
+  position: absolute;
+  margin-top: 65px;
+}
+
+.treeLevel1 {
+}
+
+  .treeLevel1 .decisionText {
+    width: 650px;
+    text-align: center;
+  }
+
+  .treeLevel1 .choiceLines {
+    width: 650px;
+  }
+
+  .treeLevel1 .choiceBoxRight {
+    margin-left: 570px;
+  }
+
+.treeLevel21 {
+  float: left;
+}
+
+  .treeLevel21 div.decisionText {
+    width: 300px;
+    text-align: center;
+  }
+
+  .treeLevel21 div.choiceLines {
+    width: 300px;
+  }
+
+  .treeLevel21 div.choiceBoxRight {
+    margin-left: 220px;
+  }
+
+  .treeLevel21 .marginAdjust {
+    margin-left: -100px
+  }
+
+
+.treeLevel22 {
+  float: right;
+  margin-left: 640px;
+  position: absolute;
+  margin-top: 60px;
+}
+
+  .treeLevel22 div.decisionText {
+    width: 350px;
+    text-align: center;
+  }
+
+  .treeLevel22 div.choiceLines {
+    width: 300px;
+  }
+
+  .treeLevel22 div.choiceBoxRight {
+    margin-left: 220px;
+  }
+
+  .treeLevel22 .marginAdjust {
+    margin-left: -200px
+  }
+
+.treeLevel31 {
+  float: left;
+  margin-left: -100px;
+}
+
+  .treeLevel31 div.decisionText {
+    width: 200px;
+    text-align: center;
+  }
+
+  .treeLevel31 div.choiceLines {
+    width: 200px;
+  }
+
+  .treeLevel31 div.choiceBoxRight {
+    margin-left: 120px;
+  }
+
+  .treeLevel31 .marginAdjust {
+    margin-left: -100px
+  }
+
+.treeLevel32 {
+  float: left;
+  margin-left: 150px;
+}
+
+  .treeLevel32 div.decisionText {
+    width: 200px;
+    text-align: center;
+  }
+
+  .treeLevel32 div.choiceLines {
+    width: 200px;
+  }
+
+  .treeLevel32 div.verticalLine {
+    margin-left: 10px;
+  }
+
+  .treeLevel32 div.choiceBoxRight {
+    margin-left: 120px;
+  }
+
+  .treeLevel32 .marginAdjust {
+    margin-left: -100px
+  }
+
+.treeLevel33 {
+  float: left;
+  margin-left: 150px;
+}
+
+  .treeLevel33 div.decisionText {
+    width: 200px;
+    text-align: center;
+  }
+
+  .treeLevel33 div.choiceLines {
+    width: 200px;
+  }
+
+  .treeLevel33 div.verticalLine {
+    margin-left: -20px;
+  }
+
+  .treeLevel33 div.choiceBoxRight {
+    margin-left: 120px;
+  }
+
+  .treeLevel33 .marginAdjust {
+    margin-left: -100px
+  }
+
+.treeLevel34 {
+  float: left;
+  margin-left: 760px;
+  position: absolute;
+}
+
+  .treeLevel34 div.decisionText {
+    width: 200px;
+    text-align: center;
+  }
+
+  .treeLevel34 div.choiceLines {
+    width: 200px;
+  }
+
+  .treeLevel34 div.verticalLine {
+    margin-left: -20px;
+  }
+
+  .treeLevel34 div.choiceBoxRight {
+    margin-left: 120px;
+  }
+
+  .treeLevel34 .marginAdjust {
+    margin-left: -100px
+  }
+
+.treeLevel41 {
+  float: left;
+  margin-left: -200px;
+}
+
+  .treeLevel41 div.decisionText {
+    width: 200px;
+    text-align: center;
+  }
+
+  .treeLevel41 div.choiceLines {
+    width: 200px;
+  }
+
+  .treeLevel41 div.choiceBoxRight {
+    margin-left: 120px;
+  }
+
+  .treeLevel41 .marginAdjust {
+    margin-left: -100px
+  }
+
+
+.treeLevel42 {
+  float: left;
+  margin-left: -20px;
+}
+
+  .treeLevel42 div.decisionText {
+    width: 200px;
+    text-align: center;
+  }
+
+  .treeLevel42 div.choiceLines {
+    width: 200px;
+  }
+
+  .treeLevel42 div.verticalLine {
+    margin-left: 10px;
+    height: 200px;
+  }
+
+  .treeLevel42 div.choiceBoxRight {
+    margin-left: 120px;
+  }
+
+  .treeLevel42 .marginAdjust {
+    margin-left: -100px
+  }

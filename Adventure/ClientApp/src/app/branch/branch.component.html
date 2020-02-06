@@ -1,0 +1,22 @@
+<div *ngIf="decisions && decision && hasChoices && !decision.hideNode" >
+  <div class="clear" *ngIf="decision.level > 2 && decision.order==1 "></div>
+  <div class="{{style}}" [ngClass]="{'transparent': !decision.selectedNode}">
+    <div class="verticalLine" *ngIf="!isRoot && hasChildren"></div>
+
+    <div [ngClass]="{'marginAdjust': !isRoot }">
+      <div class="decisionText"> {{decision.text}} </div>
+      <div *ngIf="hasChoices">
+        <div class="choiceLines"></div>
+        <div class="clear">
+          <div class="choiceBox" (click)="onClick(decision.choices[0].id, 1)">
+            {{decision.choices[0].text}}
+          </div>
+          <div class="choiceBox choiceBoxRight" (click)="onClick(decision.choices[1].id, 2)">
+            {{decision.choices[1].text}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="this.decision.resolution" class="resolution" [ngClass]="{'resolutionText1': choiceNumber==1, 'resolutionText2': choiceNumber==2}"> {{this.decision.resolution}} </div>
+  </div>
+</div>

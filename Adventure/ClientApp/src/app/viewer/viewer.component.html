@@ -1,0 +1,18 @@
+<div class="graph" *ngIf="adventure">
+
+  <div class="alert alert-dark" role="alert">
+  <h4 class="alert-heading">Review the adventure</h4>
+  <p *ngIf="adventure.player">This is the adventure done by {{adventure.player.firstName}} {{adventure.player.lastName}}.</p>
+  <hr>
+  <p class="mb-0">There are a few options for you here.</p>
+  <button class="btn btn-success" [routerLink]="['/']" style="margin-right:10px">New Adventure</button>
+  <button class="btn btn-danger" [routerLink]="['/fetch-data']">Go back</button>
+</div>
+
+  <div *ngFor="let decision of decisions; index as i;">
+    <app-branch [decisions]="decisions"
+                [decision]="decision"
+                (choiceSelected)="onChoiceSelected($event)">
+    </app-branch>
+  </div>
+</div>

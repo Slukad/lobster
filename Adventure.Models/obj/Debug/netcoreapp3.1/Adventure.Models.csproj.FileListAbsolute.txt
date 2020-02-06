@@ -1,0 +1,15 @@
+D:\Data\Personal\src\Adventure\Adventure\Adventure.Models\bin\Debug\netcoreapp3.1\Adventure.Models.deps.json
+D:\Data\Personal\src\Adventure\Adventure\Adventure.Models\bin\Debug\netcoreapp3.1\Adventure.Models.dll
+D:\Data\Personal\src\Adventure\Adventure\Adventure.Models\bin\Debug\netcoreapp3.1\Adventure.Models.pdb
+D:\Data\Personal\src\Adventure\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.AssemblyInfoInputs.cache
+D:\Data\Personal\src\Adventure\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.AssemblyInfo.cs
+D:\Data\Personal\src\Adventure\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.dll
+D:\Data\Personal\src\Adventure\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.pdb
+D:\Data\Personal\src\Adventure\V1\Adventure\Adventure.Models\bin\Debug\netcoreapp3.1\Adventure.Models.deps.json
+D:\Data\Personal\src\Adventure\V1\Adventure\Adventure.Models\bin\Debug\netcoreapp3.1\Adventure.Models.dll
+D:\Data\Personal\src\Adventure\V1\Adventure\Adventure.Models\bin\Debug\netcoreapp3.1\Adventure.Models.pdb
+D:\Data\Personal\src\Adventure\V1\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.csprojAssemblyReference.cache
+D:\Data\Personal\src\Adventure\V1\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.AssemblyInfoInputs.cache
+D:\Data\Personal\src\Adventure\V1\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.AssemblyInfo.cs
+D:\Data\Personal\src\Adventure\V1\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.dll
+D:\Data\Personal\src\Adventure\V1\Adventure\Adventure.Models\obj\Debug\netcoreapp3.1\Adventure.Models.pdb

@@ -1,0 +1,26 @@
+<h1 id="tableLabel">Top 10 Adventures</h1>
+
+<p>This component simply lists data from the server.</p>
+
+<p *ngIf="!adventures"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="adventures">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Player</th>
+      <th>Start</th>
+      <th>End</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let adventure of adventures">
+      <td>{{ adventure.id }}</td>
+      <td>{{ adventure.player.firstName }} {{ adventure.player.lastName }}</td>
+      <td>{{ adventure.startTime }}</td>
+      <td>{{ adventure.endTime }}</td>
+      <td><button class="btn btn-primary" (click)="data(adventure)">View</button></td>
+    </tr>
+  </tbody>
+</table>
