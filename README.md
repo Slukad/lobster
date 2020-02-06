@@ -1,6 +1,6 @@
 # Take Home Test
 
-Run the migrations by executing update-database command in the command prompt (note that the migration exists already).
+Run the migrations by executing the update-database command in the command prompt (note that the migration exists already).
 
 
 Angular CLI: 8.3.21
