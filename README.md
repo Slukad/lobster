@@ -6,6 +6,7 @@ Run the migrations by executing update-database command in the command prompt (n
 Angular CLI: 8.3.21
 Node: 12.14.0
 OS: win32 x64
+
 Angular: 
 ... 
 
